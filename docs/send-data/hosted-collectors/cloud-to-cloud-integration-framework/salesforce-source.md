@@ -16,7 +16,7 @@ The Consumer Key and Consumer Secret API tokens from Salesforce are required to
 
 1. The Salesforce Event Monitoring add-on is required to obtain all of the data presented in the app dashboards.  The add-on enables access to all event types in the Salesforce EventLogFile, the LoginEvent object, Transaction Security, and the Event Monitoring Analytics App. For more information, see [Get Started with Event Monitoring](https://trailhead.salesforce.com/en/modules/event_monitoring/units/event_monitoring_intro) and [Enable Event Monitoring](https://help.salesforce.com/articleView?id=Enabling-Event-Monitoring&language=en_US&type=1).
 1. Create a dedicated user and profile for the integration as referred to in [Salesforce documentation](https://help.salesforce.com/articleView?id=000331470&type=1&mode=1).
-1. Go to the profile created in Step 1 and provide the following permissions required by the source:
+1. Go to the profile created in Step 2 and provide the following permissions required by the source:
 
    * Under the **Administrative Permissions** page, select **API Enabled** and **Password Never Expires, View All Users, View Setup and Configuration**  
    * Under **General User Permissions select**  **View Event Log Files** and **Run Reports**.  
